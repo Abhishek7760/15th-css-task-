@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  header h1 {
+    margin: 0;
+  }
+  nav{
+    background-color: #0d6388;
+    color: #fff;
+    padding: 20px;
+  }
+  a{
+    color: black;
+  }
+  .hover1 {
+   
+    display: inline-block;
+    position: relative;
+      
+  }
+  .hover1 img{
+    transition: transform 0.3s ease;
+  }
+  .hover1 img {
+    transform: scale(1.1);
+  }
